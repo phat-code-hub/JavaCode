@@ -1,22 +1,47 @@
 import java.util.Scanner;
 
 public class Prime_String {
-    static String isPrimeString(String word){
-        String ans="not prime"; 
-        if (word.length()>0 && (word.length() % 2 == 0)){
-            int repeat=2;
-            do {
-
-            } while(repeat <1);
-            ans="prime";
-        } 
+    static String  text;
+    static String ans="prime"; 
+     //----------------------------------------------------------
+    //Create compared String 
+    static String concatString(final String sub, final int times) {
+        String temp = "";
+        for (int k = 1; k <= times; k++) {
+            temp += sub;
+        }
+        return temp;
+    }
+    //----------------------------------------------------------
+    //Loop from half of text length to 1 to check prime
+    static final String isPrimeString() {
+        final int len = text.length();
+        String subst;
+        String cmpst;
+        for (int i = (len / 2); i >= 1; i--) {
+            if (len % i == 0) {
+                subst = text.substring(0, i);
+                cmpst = concatString(subst, len / i);
+                if (cmpst.equals(text)) {
+                    ans = "not prime";
+                    break;
+                }
+            }
+        }
         return ans;
     }
-    public static void main(String[] args){
-        Scanner sc=new Scanner(System.in);
+    //----------------------------------------------------------
+    //Main code
+    public static void main(final String[] args) {
+        final Scanner sc = new Scanner(System.in);
         try{
-            String text=sc.nextLine().trim();
-            System.out.println(isPrimeString(text));
+            text=sc.nextLine().trim();
+            if (text.length()>0) {
+                System.out.println(isPrimeString());
+            }
+            else {
+                System.out.println(ans);
+            }
         }
         finally{
             sc.close();
