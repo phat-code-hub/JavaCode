@@ -6,23 +6,9 @@
     "configurations": [
         {
             "type": "java",
-            "name": "CodeLens (Launch) - FlowingWord",
-            "request": "launch",
-            "mainClass": "FlowingWord",
-            "projectName": "JAVA VSCode_e65b65ef"
-        },
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - Poker_Hand",
-            "request": "launch",
-            "mainClass": "Poker_Hand",
-            "projectName": "JavaCode_51e0be22"
-        },
-        {
-            "type": "java",
             "name": "Debug (Launch) - Current File",
             "request": "launch",
             "mainClass": "${file}"
-        }
+        },
     ]
 }
