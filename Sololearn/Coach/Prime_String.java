@@ -5,7 +5,7 @@ public class Prime_String {
     static String ans="prime"; 
      //----------------------------------------------------------
     //Create compared String 
-    static String concatString(final String sub, final int times) {
+    static String concatString(String sub,  int times) {
         String temp = "";
         for (int k = 1; k <= times; k++) {
             temp += sub;
@@ -14,7 +14,7 @@ public class Prime_String {
     }
     //----------------------------------------------------------
     //Loop from half of text length to 1 to check prime
-    static final String isPrimeString() {
+    static  String isPrimeString() {
         final int len = text.length();
         String subst;
         String cmpst;
@@ -32,8 +32,8 @@ public class Prime_String {
     }
     //----------------------------------------------------------
     //Main code
-    public static void main(final String[] args) {
-        final Scanner sc = new Scanner(System.in);
+    public static void main( String[] args) {
+        Scanner sc = new Scanner(System.in);
         try{
             text=sc.nextLine().trim();
             if (text.length()>0) {
