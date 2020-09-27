@@ -22,6 +22,7 @@ public class Prime_String {
             if (len % i == 0) {
                 subst = text.substring(0, i);
                 cmpst = concatString(subst, len / i);
+
                 if (cmpst.equals(text)) {
                     ans = "not prime";
                     break;
