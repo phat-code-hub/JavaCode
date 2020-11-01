@@ -4,7 +4,6 @@ public class Thu {
     }
     public static void main(String[] args) {
         Thu obj=null;
-        obj.tri();
         Thu.tri();
         //    int x=8;
         //    double w=7.5;
