@@ -1,15 +1,14 @@
 public class Thu {
-    private static void tri(){
-        System.out.println("aaa");
+    static int value=8;
+    static void click(){
+        if (value %4 == 0) value /=2;
+        else value +=3;
     }
     public static void main(String[] args) {
-        Thu obj=null;
-        Thu.tri();
-        //    int x=8;
-        //    double w=7.5;
-        //    double y=x+w;
-        //    double z=x+y;
-        //    System.out.println(y);
-        //    System.out.println(z);
+        for (int i=0; i<=3;i++){
+            click();
+            System.out.println(value);
         }
+        // System.out.println(value);
+    }
 }
