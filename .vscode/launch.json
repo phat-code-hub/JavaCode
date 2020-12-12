@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Thu",
+            "request": "launch",
+            "mainClass": "Thu",
+            "projectName": "JAVA VSCode_e65b65ef"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Prime_String2",
             "request": "launch",
             "mainClass": "Challenge.Prime_String2",
