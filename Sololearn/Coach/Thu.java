@@ -1,17 +1,11 @@
-class Number{
-
+class Test {
+    static int i;
 }
 public class Thu {
-    
+
     public static void main(String[] args) {
-        // int x=0;
-        // int y=0;
-        // System.out.println("Tong cua x va y la: "+x+y);
-        String s="@Dayla @";
-        String[] st=s.split("@");
-        System.out.println(st.length);
-        for (String tt:st){
-            System.out.println("Em :" +tt);
-        }
+        // Test t=new Test();
+        // System.out.println(t.i);
+        System.out.println(50/5);
     }
 }
