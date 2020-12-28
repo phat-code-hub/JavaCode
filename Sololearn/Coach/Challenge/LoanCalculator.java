@@ -20,8 +20,8 @@ public class LoanCalculator {
             System.out.println(calPayment(amount));
         }
         finally{
-
-        } scanner.close();
+            scanner.close();
+        } 
 
     }
 }
