@@ -14,15 +14,14 @@ public class LoanCalculator {
         return (int)pay ;
     }
     public static void main (String[] args) {
-        Scanner sc= new Scanner(System.in);
+        Scanner scanner= new Scanner(System.in);
         try {
-            int loan= sc.nextInt();
-            int remain=calPayment(loan);
-            System.out.println(remain);
+            int amount= scanner.nextInt();
+            System.out.println(calPayment(amount));
         }
         finally{
 
-        } sc.close();
+        } scanner.close();
 
     }
 }
