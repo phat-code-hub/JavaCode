@@ -4,8 +4,9 @@ class Test {
 public class Thu {
 
     public static void main(String[] args) {
-        // Test t=new Test();
-        // System.out.println(t.i);
-        System.out.println(50/5);
+        String s="ABC";
+        s.toLowerCase();
+        s+="def";
+        System.out.println(s);
     }
 }
