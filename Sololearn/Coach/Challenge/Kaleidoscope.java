@@ -12,7 +12,8 @@ public class Kaleidoscope {
         double sum =num *PRICE;
         if (num>1) sum*= (1-DISCOUNT);
         sum *= TAX;
-        System.out.println(sum);
+        // System.out.println(sum);
+        System.out.format("%.2f",sum);
         sc.close();
     }
 }
