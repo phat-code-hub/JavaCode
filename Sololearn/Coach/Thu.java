@@ -8,5 +8,8 @@ public class Thu {
         s.toLowerCase();
         s+="def";
         System.out.println(s);
+        for (int i=5;i<i*2;i--){
+            System.out.println(i);
+        }
     }
 }
