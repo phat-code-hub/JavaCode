@@ -6,17 +6,12 @@ public class PasswordValidation2 {
     static boolean checkPassword(final String word){
         final String SpecialWords="!@#$%&*";
         final char[] chars= word.toCharArray();
-        boolean chk =false;
-        boolean cond1,cond2;
         int sum1=0,sum2=0;
         for (char c: chars){
-            cond1=SpecialWords.contains(Character.toString(c));
-            cond2=Character.isDigit(c);
-            if (cond1) sum1++;
-            if (cond2) sum2++;
+            if (SpecialWords.contains(Character.toString(c))) sum1++;
+            if(Character.isDigit(c)) sum2++;
         }
-        chk = word.trim().length()>=7 && sum1 >=2 && sum2 >=2 ;
-        return chk; 
+        return  word.trim().length()>=7 && sum1 >=2 && sum2 >=2 ;
     }
     public static void main(String[] args){
         Scanner sc=new Scanner(System.in);
