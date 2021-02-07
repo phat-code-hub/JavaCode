@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch FlowingWord",
+            "request": "launch",
+            "mainClass": "Challenge.FlowingWord",
+            "projectName": "JavaCode_ff19ccc8"
+        },
+        {
+            "type": "java",
             "name": "Launch Kaleidoscope",
             "request": "launch",
             "mainClass": "Challenge.Kaleidoscope",
