@@ -13,6 +13,20 @@
             "group": "Java",
             "database": "JavaDB",
             "username": "root"
+        },
+        {
+            "mysqlOptions": {
+                "authProtocol": "default"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "askForPassword": true,
+            "driver": "MariaDB",
+            "name": "WINMariaDB",
+            "group": "Java",
+            "database": "golddb",
+            "username": "root"
         }
     ]
 }
