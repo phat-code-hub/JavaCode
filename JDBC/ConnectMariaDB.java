@@ -10,7 +10,7 @@ public class ConnectMariaDB {
 			path = "JavaDB";
 		String url = "jdbc:mariadb://localhost/" + path;
 		String user = "root";
-		String passwd = "";// "Congaukuma210663";
+		String passwd = "";
 		Connection con = null;
 		try {
 			Class.forName("org.mariadb.jdbc.Driver");
