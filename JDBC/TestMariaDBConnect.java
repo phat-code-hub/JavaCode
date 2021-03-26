@@ -4,8 +4,8 @@ import java.sql.*;
 
 public class TestMariaDBConnect {
     public static void main(String[] args) throws SQLException {
-        String sql = "Select * From Phat";
-        try (Connection con = ConnectMariaDB.getConnect("JavaDB");
+        String sql = "Select * From gold";
+        try (Connection con = ConnectMariaDB.getConnect("GoldSE11");
                 Statement stmt = con.createStatement();
                 ResultSet rs = stmt.executeQuery(sql);) {
             while (rs.next()) {
