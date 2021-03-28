@@ -8,12 +8,12 @@ public class ConnectSQLServer {
 	public static Connection getConnect(String path) throws SQLException {
 		if (path.isEmpty())
 			path = "SachVB2012";
-		// String connectionUrl =
-		// "jdbc:sqlserver://<server>:<port>;databaseName=AdventureWorks;user=<user>;password=<password>";
-		String url = "jdbc:sqlserver://localhost\\VB2012/;databaseName=path;user='root';password=''";
-		// String user = "root";
-		// String passwd = "";// "Congaukuma210663";
+		String url = "jdbc:sqlserver://localhost\\VB2012:1433;databaseName="+path+ 
+		  			";integratedSecurity=True;user='root';password=''";
 		Connection con = DriverManager.getConnection(url);
+		if (con == null){
+			System.out.println("Invalid Connection!");
+		}
 		return con;
 	}
 }
