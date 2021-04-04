@@ -1,7 +1,7 @@
 package GOLDSE11.Lambda;
 
 @FunctionalInterface
-interface Portable<Integer> {
+interface Portable<T> {
     public void handCarry(Integer weigth);
 }
 
