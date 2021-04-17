@@ -1,4 +1,4 @@
-package GOLDSE11.Exception;
+package Exception;
 
 public class Bai3_3 {
     public static void main(String[] args) {

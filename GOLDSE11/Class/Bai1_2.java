@@ -1,5 +1,4 @@
-package GOLDSE11.Class;
-
+package Class;
 class Employee {
     // private int empNo;
     protected int empNo;

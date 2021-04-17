@@ -1,4 +1,4 @@
-package GOLDSE11.NIO2;
+package NIO2;
 
 import java.io.Console;
 

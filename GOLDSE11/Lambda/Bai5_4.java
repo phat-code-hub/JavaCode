@@ -1,4 +1,4 @@
-package GOLDSE11.Lambda;
+package Lambda;
 
 public class Bai5_4 {
     interface Sample {

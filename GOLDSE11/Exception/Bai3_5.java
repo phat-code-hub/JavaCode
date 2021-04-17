@@ -1,4 +1,4 @@
-package GOLDSE11.Exception;
+package Exception;
 
 public class Bai3_5 {
     static void func(String[] st) {

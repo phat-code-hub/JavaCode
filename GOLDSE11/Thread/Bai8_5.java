@@ -1,4 +1,4 @@
-package GOLDSE11.Thread;
+package Thread;
 
 public class Bai8_5 extends Thread {
     public void run() {

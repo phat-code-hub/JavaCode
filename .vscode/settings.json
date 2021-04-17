@@ -1,42 +1,8 @@
 {
-    "sqltools.connections": [
-        {
-            "mysqlOptions": {
-                "authProtocol": "default"
-            },
-            "previewLimit": 50,
-            "server": "localhost",
-            "port": 3306,
-            "askForPassword": true,
-            "driver": "MariaDB",
-            "name": "MariaDB",
-            "group": "Java",
-            "database": "JavaDB",
-            "username": "root"
-        },
-        {
-            "mysqlOptions": {
-                "authProtocol": "default"
-            },
-            "previewLimit": 50,
-            "server": "localhost",
-            "port": 3306,
-            "askForPassword": true,
-            "driver": "MariaDB",
-            "name": "WINMariaDB",
-            "group": "Java",
-            "database": "golddb",
-            "username": "root"
-        }
-    ],
-    "java.project.referencedLibraries": [
-        "lib/**/*.jar",
-        "f:\\Cai Dat\\JAVA Eclipse\\mariadb-java-client-2.7.2-sources.jar",
-        "f:\\Cai Dat\\JAVA Eclipse\\mariadb-java-client-2.6.0.jar",
-        "f:\\Cai Dat\\JAVA Eclipse\\mysql-connector-java-8.0.23.jar",
-        "f:\\Cai Dat\\JAVA Eclipse\\sqljdbc_9.2\\enu\\mssql-jdbc-9.2.1.jre11.jar",
-        "/Users/ueda/Downloads/mariadb-java-client-2.7.2-sources.jar",
-        "/Users/ueda/Downloads/mariadb-java-client-2.6.0-sources.jar",
-        "/Users/ueda/Downloads/mariadb-java-client-2.7.2.jar"
+    "java.project.sourcePaths": [
+        "Sololearn",
+        "GOLDSE11",
+        "Sololearn/Class",
+        "Sololearn/Generic"
     ]
 }

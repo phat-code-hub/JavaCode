@@ -1,4 +1,4 @@
-package GOLDSE11.Anotation;
+package Anotation;
 
 import java.util.ArrayList;
 

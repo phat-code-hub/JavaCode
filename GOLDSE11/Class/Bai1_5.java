@@ -1,4 +1,4 @@
-package GOLDSE11.Class;
+package Class;
 
 class Super {
     int a = 1;

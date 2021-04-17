@@ -1,4 +1,4 @@
-package GOLDSE11.Generic;
+package Generic;
 
 import java.util.*;
 

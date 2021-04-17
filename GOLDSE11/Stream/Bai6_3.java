@@ -1,4 +1,4 @@
-package GOLDSE11.Stream;
+package Stream;
 
 import java.util.*;
 import java.util.stream.*;

@@ -1,4 +1,4 @@
-package GOLDSE11.Lambda;
+package Lambda;
 
 @FunctionalInterface
 interface Portable<T> {
