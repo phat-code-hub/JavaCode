@@ -7,7 +7,8 @@ import java.sql.SQLException;
 public class ConnectMariaDB {
 	public static Connection getConnect(String path) throws SQLException {
 		if (path.isEmpty())
-			path = "JavaDB";
+			path = "GOLDSE11";
+		// path = "JavaDB";
 		String url = "jdbc:mariadb://localhost/" + path;
 		String user = "root";
 		String passwd = "";
