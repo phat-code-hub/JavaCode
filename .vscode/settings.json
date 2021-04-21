@@ -1,8 +1,29 @@
 {
     "java.project.sourcePaths": [
+        "Sololearn/Generic",
+        "Sololearn/Class",
         "Sololearn",
         "GOLDSE11",
-        "Sololearn/Class",
-        "Sololearn/Generic"
+        "JDBC"
+    ],
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "default"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "askForPassword": true,
+            "driver": "MariaDB",
+            "name": "MACMariaSQL",
+            "group": "Java",
+            "database": "GOLDSE11",
+            "username": "root"
+        }
+    ],
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "GOLDSE11/JDBC/mariadb-java-client-2.7.2.jar"
     ]
 }

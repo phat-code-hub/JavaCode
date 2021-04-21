@@ -4,7 +4,7 @@ import java.sql.*;
 
 public class TestMariaDBConnect {
     public static void main(String[] args) throws SQLException {
-        String sql = "Select * From gold";
+        String sql = "Select * From hong";
         try (Connection con = ConnectMariaDB.getConnect("GoldSE11");
                 Statement stmt = con.createStatement();
                 ResultSet rs = stmt.executeQuery(sql);) {
