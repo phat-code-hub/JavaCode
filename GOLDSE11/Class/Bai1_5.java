@@ -3,6 +3,10 @@ package Class;
 class Super {
     int a = 1;
 
+    public Super() {
+        System.out.println("Main!!");
+    }
+
     String method() {
         return "Super1";
     }
@@ -14,6 +18,10 @@ class Super {
 
 public class Bai1_5 extends Super {
     int a = 2;
+
+    public Bai1_5() {
+        System.out.println("Hello");
+    }
 
     String method() {
         Super.method2();
