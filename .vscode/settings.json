@@ -20,10 +20,27 @@
             "group": "Java",
             "database": "GOLDSE11",
             "username": "root"
+        },
+        {
+            "mssqlOptions": {
+                "appName": "SQLTools",
+                "useUTC": true,
+                "encrypt": true
+            },
+            "previewLimit": 50,
+            "server": "localhost\\\\VB2012",
+            "port": 1433,
+            "askForPassword": true,
+            "driver": "MSSQL",
+            "name": "WinSqlServer",
+            "group": "Java",
+            "database": "SachVB2012",
+            "username": "root"
         }
     ],
     "java.project.referencedLibraries": [
         "lib/**/*.jar",
-        "GOLDSE11/JDBC/mariadb-java-client-2.7.2.jar"
+        "GOLDSE11/JDBC/mariadb-java-client-2.7.2.jar",
+        "c:\\Program Files\\Microsoft JDBC DRIVER 9.2 for SQL Server\\sqljdbc_9.2\\enu\\mssql-jdbc-9.2.1.jre11.jar"
     ]
 }
