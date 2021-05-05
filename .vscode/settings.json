@@ -27,12 +27,12 @@
             },
             "previewLimit": 50,
             "server": "localhost",
-            "port": 3360,
+            "port": 3306,
             "askForPassword": true,
-            "driver": "MySQL",
-            "name": "WinMySql",
+            "driver": "MariaDB",
+            "name": "WinMariaDB",
             "group": "Java",
-            "database": "golddb",
+            "database": "GoldSE11",
             "username": "root"
         },
         {
@@ -41,12 +41,12 @@
             },
             "previewLimit": 50,
             "server": "localhost",
-            "port": 3306,
+            "port": 3360,
             "askForPassword": true,
-            "driver": "MariaDB",
-            "name": "WinMariaDB",
+            "driver": "MySQL",
+            "name": "WinMySql",
             "group": "Java",
-            "database": "goldDB",
+            "database": "golddb",
             "username": "root"
         }
     ],
