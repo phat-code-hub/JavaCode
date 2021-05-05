@@ -48,12 +48,27 @@
             "group": "Java",
             "database": "goldDB",
             "username": "root"
+        },
+        {
+            "mysqlOptions": {
+                "authProtocol": "default"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3360,
+            "askForPassword": true,
+            "driver": "MySQL",
+            "name": "MACSql",
+            "group": "Java",
+            "database": "master",
+            "username": "root"
         }
     ],
     "java.project.referencedLibraries": [
         "lib/**/*.jar",
         "GOLDSE11/JDBC/mariadb-java-client-2.7.2.jar",
         "c:\\Program Files\\Microsoft JDBC DRIVER 9.2 for SQL Server\\sqljdbc_9.2\\enu\\mssql-jdbc-9.2.1.jre11.jar",
-        "f:\\Cai Dat\\JAVA Eclipse\\mysql-connector-java-8.0.23.jar"
+        "f:\\Cai Dat\\JAVA Eclipse\\mysql-connector-java-8.0.23.jar",
+        "GOLDSE11/JDBC/mysql-connector-java-8.0.24.jar"
     ]
 }
