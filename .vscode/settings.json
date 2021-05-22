@@ -3,8 +3,10 @@
         "Sololearn/Generic",
         "Sololearn/Class",
         "Sololearn",
+        "SachJava",
+        "GOLDSE2/Exception",
         "GOLDSE11",
-        "SachJava"
+        "GOLDSE2"
     ],
     "sqltools.connections": [
         {
