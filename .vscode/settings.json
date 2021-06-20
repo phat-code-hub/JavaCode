@@ -18,20 +18,6 @@
             "port": 3306,
             "askForPassword": true,
             "driver": "MariaDB",
-            "name": "MACMariaSQL",
-            "group": "Java",
-            "database": "GOLDSE11",
-            "username": "root"
-        },
-        {
-            "mysqlOptions": {
-                "authProtocol": "default"
-            },
-            "previewLimit": 50,
-            "server": "localhost",
-            "port": 3306,
-            "askForPassword": true,
-            "driver": "MariaDB",
             "name": "WinMariaDB",
             "group": "Java",
             "database": "GoldSE11",
@@ -63,6 +49,20 @@
             "name": "MACSql",
             "group": "Java",
             "database": "master",
+            "username": "root"
+        },
+        {
+            "mysqlOptions": {
+                "authProtocol": "default"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "askForPassword": true,
+            "driver": "MariaDB",
+            "name": "MACMariaSQL",
+            "group": "Java",
+            "database": "GOLDSE11",
             "username": "root"
         }
     ],
